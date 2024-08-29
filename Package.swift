@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/p-x9/fishhook", branch: "spm"),
-        .package(url: "https://github.com/p-x9/Echo", branch: "swift5.9"),
+        .package(url: "https://github.com/mo7amedfouad/Echo", branch: "swift5.9"),
         .package(url: "https://github.com/p-x9/MachOKit-SPM", .upToNextMajor(from: "0.13.0"))
     ],
     targets: [
